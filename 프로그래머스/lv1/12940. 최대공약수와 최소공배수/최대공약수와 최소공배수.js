@@ -9,8 +9,6 @@ function solution(n, m) {
       big = m
     }
   
-  let sum = 0
-  let num = 1
 
   for(i=big; i>0; i--){
     if(small%i === 0 && big%i=== 0 ){
